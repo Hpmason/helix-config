@@ -1,0 +1,38 @@
+
+theme = "onedark"
+
+[editor]
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "underline"
+
+[editor.lsp]
+display-messages = true
+
+[editor.file-picker]
+hidden = false
+
+
+[editor.statusline]
+left = ["mode", "spacer", "spinner", "spacer", "diagnostics"]
+center = ["file-name"]
+right = ["file-encoding", "file-line-ending", "file-type", "selections", "position"]
+
+[keys.normal]
+C-s = ":w"
+C-z = "undo"
+C-Z = "redo"
+
+[keys.insert]
+C-s = ":w"
+C-x = "normal_mode"
+C-c = "yank"
+C-v = "paste_after"
+C-V = "paste_before"
+C-z = "undo"
+C-Z = "redo"
+
+
