@@ -2,8 +2,15 @@
 [[language]]
 name = "rust"
 auto-format = true
+language-server = { command = "rustup", args = ["run", "nightly", "rust-analyzer"]}
+
 
 [language.config]
 checkOnSave = { command = "clippy" }
+
+[[language]]
+name = "java"
+roots = [".gradlew", ".git", "mvnw", "pom.xml"]
+
 
 
