@@ -25,6 +25,7 @@ right = ["file-encoding", "file-line-ending", "file-type", "selections", "positi
 C-s = ":w"
 C-z = "undo"
 C-Z = "redo"
+"C-/" = "toggle_comments"
 
 [keys.insert]
 C-s = ":w"
@@ -34,5 +35,5 @@ C-v = "paste_after"
 C-V = "paste_before"
 C-z = "undo"
 C-Z = "redo"
-
+"C-/" = "toggle_comments"
 
