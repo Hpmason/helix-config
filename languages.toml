@@ -13,4 +13,7 @@ name = "java"
 roots = [".gradlew", ".git", "mvnw", "pom.xml"]
 
 
+[[langauge]]
+name = "html"
+auto-format = false
 
