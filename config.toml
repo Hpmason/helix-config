@@ -3,6 +3,7 @@ theme = "onedark"
 
 [editor]
 color-modes = true
+auto-pairs = false
 
 [editor.cursor-shape]
 insert = "bar"
@@ -22,6 +23,7 @@ center = ["file-name"]
 right = ["file-encoding", "file-line-ending", "file-type", "selections", "position"]
 
 [keys.normal]
+"ret" = ["move_line_down", "goto_first_nonwhitespace"]
 C-s = ":w"
 C-c = "yank"
 C-z = "undo"
