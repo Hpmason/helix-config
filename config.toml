@@ -23,12 +23,16 @@ right = ["file-encoding", "file-line-ending", "file-type", "selections", "positi
 
 [keys.normal]
 C-s = ":w"
+C-c = "yank"
 C-z = "undo"
 C-Z = "redo"
+C-y = "redo"
 "C-/" = "toggle_comments"
 "C-[" = "unindent"
 "C-]" = "indent"
-"backspace" = "delete_selection"
+"backspace" = "delete_char_backward"
+"C-space" = "code_action"
+"C-." = "hover"
 
 [keys.insert]
 C-s = ":w"
@@ -38,8 +42,9 @@ C-v = "paste_after"
 C-V = "paste_before"
 C-z = "undo"
 C-Z = "redo"
+C-y = "redo"
 "C-/" = "toggle_comments"
 "C-[" = "unindent"
 "C-]" = "indent"
-"backspace" = "delete_selection"
-
+"C-space" = "code_action"
+"C-." = "hover"
