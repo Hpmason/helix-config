@@ -6,7 +6,7 @@ color-modes = true
 
 [editor.cursor-shape]
 insert = "bar"
-normal = "bar"
+normal = "block"
 select = "underline"
 
 [editor.lsp]
@@ -26,6 +26,9 @@ C-s = ":w"
 C-z = "undo"
 C-Z = "redo"
 "C-/" = "toggle_comments"
+"C-[" = "unindent"
+"C-]" = "indent"
+"backspace" = "delete_selection"
 
 [keys.insert]
 C-s = ":w"
@@ -36,4 +39,7 @@ C-V = "paste_before"
 C-z = "undo"
 C-Z = "redo"
 "C-/" = "toggle_comments"
+"C-[" = "unindent"
+"C-]" = "indent"
+"backspace" = "delete_selection"
 
