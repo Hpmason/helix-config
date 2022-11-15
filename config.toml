@@ -23,30 +23,45 @@ center = ["file-name"]
 right = ["file-encoding", "file-line-ending", "file-type", "selections", "position"]
 
 [keys.normal]
+
 "ret" = ["move_line_down", "goto_first_nonwhitespace"]
+# Save file
 C-s = ":w"
+# Copy + Paste
 C-c = "yank"
+C-v = "paste_after"
+C-V = "paste_before"
+# Undo redo
 C-z = "undo"
 C-Z = "redo"
 C-y = "redo"
+# Comment toggle
 "C-/" = "toggle_comments"
+# indent/unindent
 "C-[" = "unindent"
 "C-]" = "indent"
+# Easier deletion in normal mode
 "backspace" = "delete_char_backward"
+# diagnostics
 "C-space" = "code_action"
 "C-." = "hover"
 
 [keys.insert]
+# save file
 C-s = ":w"
-C-x = "normal_mode"
+# Copy paste
 C-c = "yank"
 C-v = "paste_after"
 C-V = "paste_before"
+# Undo redo
 C-z = "undo"
 C-Z = "redo"
 C-y = "redo"
+# Comment toggle
 "C-/" = "toggle_comments"
+# indent/unindent
 "C-[" = "unindent"
 "C-]" = "indent"
+# Diagnostics
 "C-space" = "code_action"
 "C-." = "hover"
