@@ -3,7 +3,6 @@ theme = "onedark"
 
 [editor]
 color-modes = true
-auto-pairs = false
 
 [editor.cursor-shape]
 insert = "bar"
@@ -43,8 +42,8 @@ C-y = "redo"
 # Easier deletion in normal mode
 "backspace" = "delete_char_backward"
 # diagnostics
-"C-space" = "code_action"
-"C-." = "hover"
+"C-space" = "hover"
+"C-." = "code_action"
 
 [keys.insert]
 # save file
@@ -63,5 +62,5 @@ C-y = "redo"
 "C-[" = "unindent"
 "C-]" = "indent"
 # Diagnostics
-"C-space" = "code_action"
-"C-." = "hover"
+"C-space" = "hover"
+"C-." = "code_action"
