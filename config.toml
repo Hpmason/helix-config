@@ -28,9 +28,9 @@ right = ["file-encoding", "file-line-ending", "file-type", "selections", "positi
 # Save file
 C-s = ":w"
 # Copy + Paste
-C-c = "yank"
-C-v = "paste_after"
-C-V = "paste_before"
+C-c = "yank_main_selection_to_clipboard"
+C-v = "paste_clipboard_after"
+C-V = "paste_clipboard_before"
 # Undo redo
 C-z = "undo"
 C-Z = "redo"
@@ -50,9 +50,9 @@ C-y = "redo"
 # save file
 C-s = ":w"
 # Copy paste
-C-c = "yank"
-C-v = "paste_after"
-C-V = "paste_before"
+C-c = "yank_main_selection_to_clipboard"
+C-v = "paste_clipboard_after"
+C-V = "paste_clipboard_before"
 # Undo redo
 C-z = "undo"
 C-Z = "redo"
