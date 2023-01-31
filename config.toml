@@ -5,6 +5,7 @@ theme = "onedark"
 color-modes = true
 auto-format = false
 rulers = [80]
+bufferline = "always"
 
 [editor.cursor-shape]
 insert = "bar"
