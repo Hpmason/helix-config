@@ -2,8 +2,7 @@
 [[language]]
 name = "rust"
 auto-format = true
-language-server = { command = "rustup", args = ["run", "nightly", "rust-analyzer"]}
-config = {checkOnSave = {extraArgs = ["--profile", "rust-analyzer"]}}
+language-servers = ["rust-analyzer"]
 
 [[language]]
 name = "java"

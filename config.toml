@@ -13,6 +13,7 @@ normal = "block"
 select = "underline"
 
 [editor.lsp]
+display-inlay-hints = true
 display-messages = true
 
 [editor.file-picker]
